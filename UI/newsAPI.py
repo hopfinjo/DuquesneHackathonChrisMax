@@ -11,6 +11,8 @@ newsapi = NewsApiClient(api_key='371a76c13f6c43cb828a1933781f7947')
 # Define the search query
 query = 'your search query here'
 
+
+
 # Search for articles
 articles = newsapi.get_everything(q=query, language='en', sort_by='relevancy')
 
