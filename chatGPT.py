@@ -16,7 +16,7 @@ class chatGPT:
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a motivational, inspiring assitant, that draws from speeches and quotes from highly achieving people"},
+                {"role": "system", "content": "you are comparing articles of different viewpoints with each other as a neutral source"},
                 {"role": "user", "content": "Give me 1 motivational quotes"}
             ]
         )
