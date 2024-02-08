@@ -25,17 +25,3 @@ class chatGPT:
         self.current_quote = first_quote
         return first_quote
 
-    # def createNewQuotes(self):
-    #     os.environ["OPENAI_API_KEY"] = self.chatGPT_env_acces_key
-    #     client = OpenAI()
-
-    #     completion = client.chat.completions.create(
-    #         model="gpt-3.5-turbo",
-    #         messages=[
-    #             {"role": "system", "content": "You are a motivational, inspiring assitant, that draws from speeches and quotes from highly achieving people"},
-    #             {"role": "user", "content": "Give me 1 motivational quotes"}
-    #         ]
-    #     )
-
-    #     first_quote = completion.choices[0].message
-    #     return first_quote
